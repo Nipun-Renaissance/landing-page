@@ -52,14 +52,15 @@ body {
     flex: 1;
     align-self: self-start;
     background-color: #3882f6;
-    min-width: 60px;
+    min-width: 90px;
     color:#f9faf8;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 8px 12px;
     /* box-shadow: none; */
     /* outline: none; */
     border: none;
     font-size: 14px;
+    font-weight: 900;
     /* height: 10px; */
 }
 .logo {
@@ -109,44 +110,87 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 36px;
+    color: #1F2937;
 }
 .firstcontainer{
     /* flex-grow: 1; */
-    background-color: lightblue;
-    /* max-height: 250px; */
+    /* background-color: lightblue; */
+  
     flex: 1 1 0;    
 }
 .mainbox {
     display: flex;
     justify-content: space-around;
     /* flex-wrap: wrap; */
-    gap: 8px;
-    background-color: blanchedalmond;
-    padding: 50px;
+    /* gap: 8px; */
+    /* background-color: blanchedalmond; */
+    padding-right: 350px;
+    padding-left: 350px;
+    padding-bottom: 100px;
     
 }
 .box {
-    width: 200px;
+    width: 150px;
     height: 200px;
-    flex: 1;
-.text {
-    text-wrap: wrap;
+    /* flex: 1; */
+    /* flex-grow: 0; */
+    /* border-radius: 5px; */
+
 }
-}
+
 .boxdi {
     width: 150px;
     height: 150px;
     border: 2px solid blue;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
+.text {
+    text-align: center;
+}
+
+/* Third section of the page starts from here */
 .secondcontainer {
-    background-color: lightgreen;
-    flex: 1;
+    background-color: #e5e7eb;
+    /* flex: 1; */
+    /* text-align: center; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display:flex;
+    flex-direction: column;
+
 }
+.secondcontainer .quote {
+    /* text-align: center; */
+    /* text-wrap: wrap; */
+    /* width: 900px; */
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-bottom: 0;
+}
+.thor {
+    font-size: 20px;
+    /* background-color: aqua; */
+    /* padding-left: 850px; */
+    font-weight: 400;
+    align-self:center;
+    margin-top: 0;
+    padding-left: 600px;
+}
+/* fourth section of the page starts from here */
 .thirdcontainer {
     background-color: orange;
-    flex: 1;;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer {
     background-color: maroon;
