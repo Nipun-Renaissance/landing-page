@@ -75,11 +75,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(89, 88, 88);
     width: 500px;
     font-size: 18px;
 }
-ul {
+.headerlist {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -186,13 +186,56 @@ h2 {
 }
 /* fourth section of the page starts from here */
 .thirdcontainer {
-    background-color: orange;
+    /* background-color: orange; */
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 75px; 
+    padding-bottom: 75px;
+    
 }
-.footer {
-    background-color: maroon;
+.modal {
+    display: flex;
+    background-color: #3882f6;
+    margin:0;
+    /* width: 900px; */
+    /* height: 100px; */
+    justify-content: space-between;
+    gap: 32px;
+    border-radius: 5px;
+    /* border-style: solid; */
+    padding: 40px 80px;
+    color: #f9faf8;
+    /* margin-left: 50px; */
+}
+.bottomlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     flex: 1;
+    /* background-color: #1F2937; */
+}
+.modal button {
+background-color: #3882f6;
+/* padding-top: 50px; */
+/* color: #3882f6; */
+/* font-size: large; */
+color: #f9faf8;;
+height: 20px;
+border-radius: 5px;
+border-color: #f9faf8;
+/* border: none; */
+border-width: 1.5px;
+align-self: flex-end;
+border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    flex: 1;
+    color: #f9faf8;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
